@@ -1,4 +1,6 @@
 # Twitter Data Visualisation
-Pulling info off twitter to create a meme. 
+Pulling info off Twitter with a python program possibly.
+
+Using that data to create something different. 
 
 #
