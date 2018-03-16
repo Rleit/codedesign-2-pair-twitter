@@ -11,10 +11,15 @@ PS: No im not obsessed with world maps. It just happened to be the most common.
 
 Effects: 
 >Pings 
+
 https://codepen.io/sdras/pen/dXoLEJ?limit=all&page=2&q=data 
+
 >Better looking Pings
+
 https://codepen.io/32bitkid/pen/swGBq?limit=all&page=4&q=data
+
 >Glitch Effect 
+
 https://codepen.io/lbebber/pen/ypgql?limit=all&page=3&q=data - Glitch Effect 
 
 >Data Vis:
