@@ -22,6 +22,16 @@ https://codepen.io/32bitkid/pen/swGBq?limit=all&page=4&q=data
 
 https://codepen.io/lbebber/pen/ypgql?limit=all&page=3&q=data - Glitch Effect 
 
+>Falling circles
+
+https://codepen.io/linrock/pen/Amdhr?depth=code&order=popularity&page=3&q=Canvas&show_forks=false
+
+>Curiosity
+
+https://codepen.io/stefanweck/pen/ZLpgBa?depth=code&order=popularity&page=18&q=Canvas&show_forks=false
+
+
+
 ## Data Vis:
 
 >Music and how far it has travelled. 
