@@ -44,4 +44,8 @@ https://whitecollar.thenewinquiry.com/#dr5rukp
 
 ![alt](http://datavisualization.ch/wp-content/uploads/2011/05/ghost_counties_05.jpg)
 
+![alt](http://mybmworld.net/wp-content/uploads/2013/02/fidgt.jpg)
+
+![alt](https://static1.squarespace.com/static/534d2eafe4b0ca2d44b03d0d/580d28f3893fc089409a5fb4/580d2fab59cc689a7b3edd20/1477259180403/DATA.gif?format=750w)
+
 ## Other resources:
