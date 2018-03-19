@@ -59,3 +59,7 @@ https://whitecollar.thenewinquiry.com/#dr5rukp
 ![alt](https://static1.squarespace.com/static/534d2eafe4b0ca2d44b03d0d/580d28f3893fc089409a5fb4/580d2fab59cc689a7b3edd20/1477259180403/DATA.gif?format=750w)
 
 ## Other resources:
+
+>Twitter API access
+
+https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object
