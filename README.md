@@ -63,3 +63,6 @@ https://whitecollar.thenewinquiry.com/#dr5rukp
 >Twitter API access
 
 https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object
+
+>Possible another option to mongodb + python , instead use Python and Tweepy library ?? straight into json ??
+https://nocodewebscraping.com/twitter-json-examples/
