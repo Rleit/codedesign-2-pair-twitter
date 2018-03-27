@@ -16,10 +16,19 @@ function Z(ctx, x, y) {
 
     //time
     ctx.beginPath();
-    ctx.font = "45px Arial";
-    ctx.fillText("19:55", x + 2, y - 147);
+    ctx.font = "43px Arial";
+    ctx.fillText("19:55", x + 6, y - 147);
     ctx.closePath();
+
+    //count
+    ctx.beginPath();
+    ctx.font = "20px Arial";
+    ctx.fillText("COUNT: 100", x + 2, y + 23);
+    ctx.closePath();
+
 }
+
+
 //zFunctionEnd
 
 
