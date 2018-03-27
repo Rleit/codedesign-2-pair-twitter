@@ -9,8 +9,16 @@ Z(ctx, 320, 300)
 
 //zFunctionBegin
 function Z(ctx, x, y) {
+    ctx.beginPath();
     ctx.font = "200px Arial";
     ctx.fillText("Z", x, y);
+    ctx.closePath();
+
+    //time
+    ctx.beginPath();
+    ctx.font = "45px Arial";
+    ctx.fillText("19:55", x + 2, y - 147);
+    ctx.closePath();
 }
 //zFunctionEnd
 
