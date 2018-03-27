@@ -37,4 +37,4 @@ if __name__ == '__main__':
     # For more details refer to https://dev.twitter.com/docs/streaming-apis
     stream = tweepy.Stream(auth, l)
     #Hashtag to stream
-    stream.filter(track=["knackered"])
+    stream.filter(track=["tired"])
