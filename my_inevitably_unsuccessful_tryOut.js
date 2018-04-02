@@ -4,8 +4,10 @@ data - sent with request to server
 success - callback function that executes if successful
 */
 
+//once window loads, execute the function
 window.onload = function () {
     (function () {
+        //somehow connect to our data source
         var twitterAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
         $.getJSON(twitterAPI, {
                 tags: "mount rainier",
