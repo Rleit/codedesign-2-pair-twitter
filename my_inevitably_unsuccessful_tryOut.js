@@ -9,6 +9,7 @@ window.onload = function () {
     (function () {
         //somehow connect to our data source
         var twitterAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+        //get JSON 
         $.getJSON(twitterAPI, {
                 tags: "mount rainier",
                 tagmode: "any",
