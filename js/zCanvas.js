@@ -57,12 +57,24 @@ function init() {
         // ctx.fillText("19:55", x + 6, y - 147);
         // ctx.closePath();
 
-        //count
+        //count, tweetBegin
 
         ctx.beginPath();
-        ctx.font = "25px Arial";
-        ctx.fillText(obj["0"].text, x + 2, y + 23);
+        ctx.font = "20px Arial";
+        ctx.fillText(obj["0"].text, x + 2, y + 25);
         ctx.closePath();
+        //tweetEnd
+
+        //locationBegin
+        ctx.beginPath();
+        ctx.font = "15px Arial";
+        ctx.fillText(obj["0"].created_at, x + 4, y - 256);
+        ctx.closePath();
+        //locationEnd
+
+
+
+
 
     }
 
