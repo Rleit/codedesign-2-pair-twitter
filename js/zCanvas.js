@@ -37,7 +37,7 @@ function init() {
     function Z(ctx, x, y) {
         ctx.beginPath();
         ctx.font = "350px Arial";
-        ctx.fillStyle = "#40AD7B";
+        ctx.fillStyle = "#85AD55";
         ctx.textAlign = "center";
         ctx.fillText("Z", x, y);
         ctx.closePath();
@@ -51,7 +51,7 @@ function init() {
         //count
 
         ctx.beginPath();
-        ctx.font = "25px Arial";
+        ctx.font = "15px Arial";
         ctx.fillText(obj["0"].user.description, x + 2, y + 23);
         ctx.closePath();
 
@@ -59,7 +59,7 @@ function init() {
 
     function bg(ctx, x, y) {
 
-        ctx.fillStyle = "#CDFAE5";
+        ctx.fillStyle = "#ADC78F";
         ctx.fillRect(x, y, ctx.canvas.width, ctx.canvas.height);
 
 
