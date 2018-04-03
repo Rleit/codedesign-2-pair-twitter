@@ -1,3 +1,12 @@
+//refresh page 
+window.setInterval('refresh()', 5000); // CALL A FUNCTION EVERY 10000 MILLISECONDS OR 10 SECONDS.
+
+// REFRESH OR RELOAD PAGE.
+function refresh() {
+    window.location.reload();
+}
+/*Banik, A. (2018). How to Auto Refresh Page Every 10 Seconds using JavaScript setInterval() Method. [online] Encodedna.com. Available at: http://www.encodedna.com/javascript/auto-refresh-page-every-10-second-using-javascript-setInterval-method.htm [Accessed 3 Apr. 2018].    */
+
 // locates the html element by id
 var c = document.getElementById("zCanvas");
 
@@ -37,7 +46,7 @@ function init() {
     function Z(ctx, x, y) {
         ctx.beginPath();
         ctx.font = "350px Arial";
-        ctx.fillStyle = "#85AD55";
+        ctx.fillStyle = "#000";
         ctx.textAlign = "center";
         ctx.fillText("Z", x, y);
         ctx.closePath();
@@ -51,8 +60,8 @@ function init() {
         //count
 
         ctx.beginPath();
-        ctx.font = "15px Arial";
-        ctx.fillText(obj["0"].user.description, x + 2, y + 23);
+        ctx.font = "25px Arial";
+        ctx.fillText(obj["0"].text, x + 2, y + 23);
         ctx.closePath();
 
     }
