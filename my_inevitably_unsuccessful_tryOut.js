@@ -18,7 +18,7 @@
     }
 }(this, function () {
     var domNode = '';
-    var maxTweets = 20;
+    var maxTweets = 5000;
     var parseLinks = true;
     var queue = [];
     var inProgress = false;
