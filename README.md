@@ -1,62 +1,11 @@
 # Twitter Data Visualisation
 Pulling info off Twitter with a python program possibly.
 
-Using that data to create something different. 
-
-use node.js developed by the third years
-
-# Few "Bookmarks" - idea storming 
-PS: No im not obsessed with world maps. It just happened to be the most common. 
-**This is also to test the readme formatting.**
-
-## Effects: 
->Pings 
-
-https://codepen.io/sdras/pen/dXoLEJ?limit=all&page=2&q=data 
-
->Better looking Pings
-
-https://codepen.io/32bitkid/pen/swGBq?limit=all&page=4&q=data
-
->Glitch Effect 
-
-https://codepen.io/lbebber/pen/ypgql?limit=all&page=3&q=data - Glitch Effect 
-
->Falling circles
-
-https://codepen.io/linrock/pen/Amdhr?depth=code&order=popularity&page=3&q=Canvas&show_forks=false
-
->Curiosity
-
-https://codepen.io/stefanweck/pen/ZLpgBa?depth=code&order=popularity&page=18&q=Canvas&show_forks=false
+Node.js created by third years is running on a server to keep json file updated constantly whenever new tweet is tweeted.
+http://rainerleit.eu/json/tweets.json
+http://media.uclan.ac.uk/~rleit/cd/2/index.html
 
 
-
-## Data Vis:
-
->Music and how far it has travelled. 
-
-http://www.lightyear.fm/
-
->DDOS Attacks live 
-
-https://cybermap.kaspersky.com/ 
-
->DDOS Attacks live 
-
-http://map.norsecorp.com/  
-
->White Collar Crime Risk Zones 
-
-https://whitecollar.thenewinquiry.com/#dr5rukp 
-
->Image of interesting data vis.
-
-![alt](http://datavisualization.ch/wp-content/uploads/2011/05/ghost_counties_05.jpg)
-
-![alt](http://mybmworld.net/wp-content/uploads/2013/02/fidgt.jpg)
-
-![alt](https://static1.squarespace.com/static/534d2eafe4b0ca2d44b03d0d/580d28f3893fc089409a5fb4/580d2fab59cc689a7b3edd20/1477259180403/DATA.gif?format=750w)
 
 ## Other resources:
 
@@ -64,5 +13,12 @@ https://whitecollar.thenewinquiry.com/#dr5rukp
 
 https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object
 
->Possible another option to mongodb + python , instead use Python and Tweepy library ?? straight into json ??
-https://nocodewebscraping.com/twitter-json-examples/
+## Dead idea
+> Idea was to store data in a database created by MongoDB and then use that data to create a animated and datadriven canvas site which ultimately was scrapped with a secondary idea due to MongoDB requiring REST API (framework) installed on the server. During testing some basic accessibility was achieved but calling information into the javascript trought the api was the problem.
+
+![First Idea](drawings/firstidea.png "First Idea")
+![Second Idea](drawings/secondidea.png "Second Idea")
+
+## Final Idea
+![Final](drawings/Final idea _ .png "Final")
+![Final](drawings/zfunction.jpg "Final")
