@@ -47,7 +47,7 @@ window.onload = function(){
       c.fillStyle = this.color;
       c.beginPath();
       c.font = this.size*10 + "px Arial";
-      c.fillText("Z", this.x, this.y);
+      c.fillText("z", this.x, this.y);
 
       c.fill();
     };

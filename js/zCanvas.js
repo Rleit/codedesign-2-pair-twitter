@@ -15,6 +15,8 @@ var c = document.getElementById("zCanvas");
 
 //defines context as 2d
 var ctx = c.getContext("2d");
+
+//Window width and height
 ctx.canvas.width = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
 
@@ -24,8 +26,11 @@ var url = "http://rainerleit.eu/json/tweets.json";
 
 //Current Blue: BLUE slows the heart rate, suppresses hunger and reduces blood pressure.
 //http://www.colourtheory.net/articles/colour_psychology.htm
-var textc = "#2F74A8";
+var textc = "#2F74A8",
+    rheartc = "#e81c4f";
 // var bgc = "#5DB4F4";
+var img = new Image,
+    prof = new Image;
 
 var previous = null;
 var current = null;
@@ -60,6 +65,8 @@ function Get(url) {
 
 //parse 
 var obj = JSON.parse(Get(url));
+
+
 console.log(obj);
 
 init();
@@ -68,7 +75,7 @@ init();
 function init() {
 
     Z(ctx, ctx.canvas.width / 2, ctx.canvas.height / 2);
-    
+
 
 
     //zFunctionBegin
@@ -87,24 +94,64 @@ function init() {
         // ctx.fillText("19:55", x + 6, y - 147);
         // ctx.closePath();
 
-        //count, tweetBegin
 
+        //profile pic
+        ctx.beginPath();
+        prof.onload = function () {
+            ctx.beginPath();
+            ctx.arc(x + 24, y + 252, 24, 0, 2 * Math.PI);
+            ctx.strokeStyle = "#fff";
+            ctx.lineWidth = 4;
+            ctx.stroke();
+
+            ctx.clip();
+            ctx.drawImage(prof, x, y + 227);
+
+            ctx.closePath();
+        };
+        prof.src = obj["0"].user.profile_image_url;
+
+
+        ctx.closePath();
+        //profile pic
+
+        // //locationBegin - DATE AND TIME
+        // ctx.beginPath();
+        // ctx.textAlign = "center";
+        // ctx.textBaseline = "middle";
+        // ctx.font = "15px Arial";
+        // ctx.fillText(obj["0"].created_at, x + 4, y - 200);
+        // ctx.closePath();
+        // //locationEnd
+
+        // tweetBegin
         ctx.beginPath();
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
         ctx.font = "24px Arial";
         ctx.fillText(obj["0"].text, x + 2, y + 200);
+
         ctx.closePath();
         //tweetEnd
 
-        //locationBegin
+        // extra info begin (Favourites on the account)
         ctx.beginPath();
+        img.onload = function () {
+            ctx.drawImage(img, x - 47, y + 230);
+        };
+        img.src = "img/heart32.png";
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
-        ctx.font = "15px Arial";
-        ctx.fillText(obj["0"].created_at, x + 4, y - 200);
+        ctx.font = "18px Arial";
+        ctx.fillStyle = rheartc;
+        ctx.fillText(obj["0"].user.favourites_count, x - 30, y + 275);
         ctx.closePath();
-        //locationEnd
+
+
+
+        // extra info end
+
+
 
 
 
