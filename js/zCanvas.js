@@ -139,7 +139,8 @@ function init() {
         img.onload = function () {
             ctx.drawImage(img, x - 47, y + 230);
         };
-        img.src = "img/heart32.png";
+        /* img.src = "img/heart32.png"; // Media.uclan.ac.uk is having trouble loading this fast enough */
+        img.src = "http://rainerleit.eu/json/img/heart32.png"; //See if this changes it
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
         ctx.font = "18px Arial";
