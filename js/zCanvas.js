@@ -1,4 +1,4 @@
-//refresh page 
+/*refresh page 
 window.setInterval('refresh()', 5000); // CALL A FUNCTION EVERY 10000 MILLISECONDS OR 10 SECONDS.
 
 // REFRESH OR RELOAD PAGE.
@@ -11,11 +11,18 @@ function refresh() {
 /*Banik, A. (2018). How to Auto Refresh Page Every 10 Seconds using JavaScript setInterval() Method. [online] Encodedna.com. Available at: http://www.encodedna.com/javascript/auto-refresh-page-every-10-second-using-javascript-setInterval-method.htm [Accessed 3 Apr. 2018].    */
 
 
-
-
-
-
-
+var previous = null;
+var current = null;
+setInterval(function () {
+    $.getJSON("http://rainerleit.eu/json/tweets.json", function (json) {
+        current = JSON.stringify(json);
+        if (previous && current && previous !== current) {
+            console.log('refresh');
+            location.reload();
+        }
+        previous = current;
+    });
+}, 5000);
 
 
 // locates the html element by id
