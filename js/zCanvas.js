@@ -5,7 +5,18 @@ window.setInterval('refresh()', 5000); // CALL A FUNCTION EVERY 10000 MILLISECON
 function refresh() {
     window.location.reload();
 }
+
+
+
 /*Banik, A. (2018). How to Auto Refresh Page Every 10 Seconds using JavaScript setInterval() Method. [online] Encodedna.com. Available at: http://www.encodedna.com/javascript/auto-refresh-page-every-10-second-using-javascript-setInterval-method.htm [Accessed 3 Apr. 2018].    */
+
+
+
+
+
+
+
+
 
 // locates the html element by id
 var c = document.getElementById("zCanvas");
@@ -22,6 +33,8 @@ var url = "http://rainerleit.eu/json/tweets.json";
 Rdocumentation.org. (2018). getURL function | RDocumentation. [online] Available at: https://www.rdocumentation.org/packages/RCurl/versions/1.95-4.8/topics/getURL [Accessed 3 Apr. 2018].
 
 */
+
+
 function Get(url) {
     var Httpreq = new XMLHttpRequest(); // a new request begins
     //initialize or re-initialize request
