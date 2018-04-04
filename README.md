@@ -16,9 +16,9 @@ https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-obje
 ## Dead idea
 > Idea was to store data in a database created by MongoDB and then use that data to create a animated and datadriven canvas site which ultimately was scrapped with a secondary idea due to MongoDB requiring REST API (framework) installed on the server. During testing some basic accessibility was achieved but calling information into the javascript trought the api was the problem.
 
-![First Idea](codedesign-2-pair-twitter/drawings/First idea.png?raw=true)
-![Second Idea](codedesign-2-pair-twitter/drawings/Possible Easier version but hard to complete.png?raw=true)
+![First Idea](drawings/First idea.png?raw=true "First Idea")
+![Second Idea](drawings/Possible Easier version but hard to complete.png?raw=true "Second Idea")
 
 ## Final Idea
-![Final](codedesign-2-pair-twitter/drawings/Final idea _ .png?raw=true)
-![Final](codedesign-2-pair-twitter/drawings/ZFunction.jpg)
+![Final](drawings/Final idea _ .png?raw=true "Final")
+![Final](drawings/ZFunction.jpg "Final")
