@@ -66,7 +66,6 @@ function Get(url) {
 //parse 
 var obj = JSON.parse(Get(url));
 
-
 console.log(obj);
 
 init();
@@ -128,7 +127,7 @@ function init() {
         ctx.beginPath();
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
-        ctx.font = "24px Arial";
+        ctx.font = ctx.canvas.width / 75 + "px Arial";
         ctx.fillText(obj["0"].text, x + 2, y + 200);
 
         ctx.closePath();
