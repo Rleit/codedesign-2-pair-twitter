@@ -31,7 +31,7 @@ const fs      = require('fs'),
 const config = {
     "output"     : "tweets.json",
     "max_tweets" : 1,
-    "params"     : { "track" : "trump" },
+    "params"     : { "track" : "awake" },
     "twitter"    : keys
 }
 
