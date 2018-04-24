@@ -3,11 +3,10 @@ Pulling info off Twitter with a python program possibly.
 
 Node.js created by third years is running on a server to keep json file updated constantly whenever new tweet is tweeted.
 
-Sleep Active Json
+Sleep Active Json -
 http://rainerleit.eu/json/tweets.json
 
-Awake Active Json
-
+Awake Active Json -
 http://rainerleit.eu/jsona/tweets.json
 
 
