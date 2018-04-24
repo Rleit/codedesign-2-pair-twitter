@@ -6,7 +6,13 @@ http://rainerleit.eu/json/tweets.json
 
 http://media.uclan.ac.uk/~rleit/cd/2/index.html
 
+> Node JS 
 
+Node JS application under the node3 folder is run on a web server for continious data pulling.
+
+>Color psychology
+
+We used color psychology for the awake and sleep color choice. Blue is supposed to be calming and trustworthy while red is energetic.
 
 ## Other resources:
 
@@ -23,3 +29,14 @@ https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-obje
 ## Final Idea
 ![Final](drawings/finalidea.png "Final")
 ![Final](drawings/ZFunction.jpg "Final")
+
+
+
+## Reference 
+>Color Psychology
+http://www.colourtheory.net/articles/colour_psychology.htm
+>Node Js Application by David Warrington
+https://github.com/davidwarrington/twitter-stream
+>Letter particle effect in the background.
+https://codepen.io/jboeijenga/pen/pveQBz
+
