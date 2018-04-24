@@ -34,9 +34,14 @@ https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-obje
 
 ## Reference 
 >Color Psychology
+
 http://www.colourtheory.net/articles/colour_psychology.htm
+
 >Node Js Application by David Warrington
+
 https://github.com/davidwarrington/twitter-stream
+
 >Letter particle effect in the background.
+
 https://codepen.io/jboeijenga/pen/pveQBz
 
