@@ -1,5 +1,9 @@
 # Twitter Stream
 
+>Node Js Application by David Warrington
+
+https://github.com/davidwarrington/twitter-stream
+
 ## Usage instructions:
 1. Run `npm install` to install dependencies
 2. Change the config as necessary
